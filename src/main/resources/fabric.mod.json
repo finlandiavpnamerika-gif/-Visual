@@ -1,0 +1,22 @@
+
+{
+  "schemaVersion": 1,
+  "id": "architektvisuals",
+  "version": "${version}",
+  "name": "Architekt Visuals",
+  "description": "Клиентские визуалы и утилиты для Minecraft 1.21.11",
+  "authors": ["Architekt"],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.architekt.visuals.ArchitektClient"]
+  },
+  "mixins": ["architekt.mixins.json"],
+  "accessWidener": "architekt.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
